@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&family=Smooch+Sans:wght@100..900&family=Sora:wght@100..800&display=swap");
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --font-code: "Roboto", sans-serif;
+  --font-sora: "Sora", sans-serif;
+  --font-pop: "Poppins", monospace;
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-cut: "Cutive Mono", monospace;
+  --font-lob: "Lobster Two", monospace;
+  --font-smooch: "Smooch Sans", monospace;
+
+  --n-1: #ffffff;
+  --n-2: #cac6dd;
+  --n-3: #ada8c3;
+  --n-4: #757185;
+  --n-5: #3f3a52;
+  --n-6: #252134;
+  --n-7: #15131d;
+  --n-8: #0e0c15;
+  --n-9: #474060;
+  --n-10: #43435c;
+  --n-11: #1b1b2e;
+  --n-12: #2e2a41;
+  --n-13: #6c7275;
+}
+html {
+  scroll-behavior: auto;
+}
+
+.font-code {
+  font-family: var(--font-code);
+}
+
+.font-sora {
+  font-family: var(--font-sora);
+}
+
+.font-pop {
+  font-family: var(--font-pop);
+}
+
+.font-bebas {
+  font-family: var(--font-bebas);
+}
+.font-cut {
+  font-family: var(--font-cut);
+}
+.font-lob {
+  font-family: var(--font-lob);
+}
+
+.font-smooch {
+  font-family: var(--font-smooch);
+}
+
+.border-n-1 {
+  border-color: var(--n-1);
+}
+.border-n-2 {
+  border-color: var(--n-2);
+}
+.border-n-3 {
+  border-color: var(--n-3);
+}
+.border-n-4 {
+  border-color: var(--n-4);
+}
+.border-n-5 {
+  border-color: var(--n-5);
+}
+.border-n-6 {
+  border-color: var(--n-6);
+}
+.border-n-7 {
+  border-color: var(--n-7);
+}
+.border-n-8 {
+  border-color: var(--n-8);
+}
+.border-n-9 {
+  border-color: var(--n-9);
+}
+.border-n-10 {
+  border-color: var(--n-10);
+}
+.border-n-11 {
+  border-color: var(--n-11);
+}
+.border-n-12 {
+  border-color: var(--n-12);
+}
+.border-n-13 {
+  border-color: var(--n-13);
+}
+
+.bg-n-1 {
+  background-color: var(--n-1);
+}
+.bg-n-2 {
+  background-color: var(--n-2);
+}
+.bg-n-3 {
+  background-color: var(--n-3);
+}
+.bg-n-4 {
+  background-color: var(--n-4);
+}
+.bg-n-5 {
+  background-color: var(--n-5);
+}
+.bg-n-6 {
+  background-color: var(--n-6);
+}
+.bg-n-7 {
+  background-color: var(--n-7);
+}
+.bg-n-8 {
+  background-color: var(--n-8);
+}
+.bg-n-9 {
+  background-color: var(--n-9);
+}
+.bg-n-10 {
+  background-color: var(--n-10);
+}
+.bg-n-11 {
+  background-color: var(--n-11);
+}
+.bg-n-12 {
+  background-color: var(--n-12);
+}
+.bg-n-13 {
+  background-color: var(--n-13);
+}
+
+@layer components {
+  .container {
+    @apply min-h-[1rem] text-[1rem] md:text-[1.6rem] text-white;
+  }
+  .loginForm {
+    @apply border border-neutral-500 w-full focus:outline focus:ring-2 rounded-sm focus:ring-white p-2;
+  }
+  h3 {
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.9);
+  }
+}
+
+@layer utilities {
+  /* Add this in your global styles if needed */
+  .smooth-scroll {
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+  }
+
+  /* Hide scrollbar for Chrome/Safari */
+  .smooth-scroll::-webkit-scrollbar {
+    display: none;
+  }
+
+  .image {
+    transition: transform 1s ease;
+  }
+
+  .image:active {
+    transform: scale(0.7); /* Shrinks on click */
+  }
+  .shad {
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.9);
+  }
+  .heading {
+    @apply pl-5 py-1 md:py-2 font-bold text-2xl md:text-4xl;
+  }
+  .content-scroll {
+    @apply p-4 my-[2rem] border inline-flex min-w-full border-violet-900 rounded-xl gap-5;
+  }
+  .review-scroll {
+    @apply p-3 my-1 border inline-flex min-w-full border-violet-900 rounded-xl gap-5;
+  }
+
+  .link {
+    @apply font-bold  px-4 py-2 border-b-4 text-2xl  border-t-white focus:text-gray-400;
+  }
+}
+
+@media (max-width: 1128px) {
+  .below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+  }
+  .align {
+    text-align: center;
+    display: block;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    stroke-dasharray: 1, 800;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 400, 400;
+    stroke-dashoffset: -200px;
+  }
+  100% {
+    stroke-dasharray: 800, 1;
+    stroke-dashoffset: -800px;
+  }
+}
+
+.spin2 {
+  transform-origin: center;
+  animation: spin2 1.5s ease-in-out infinite, spin 2s linear infinite;
+  animation-direction: alternate;
+}
