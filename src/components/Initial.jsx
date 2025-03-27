@@ -77,7 +77,7 @@ const Initial = () => {
             )}
             <div className="absolute top-0 left-0 right-0 md:px-7 px-3 pt-1 z-30">
                 <div className="relative flex justify-between items-center  flex-wrap">
-                    <Link to="/">
+                    <Link to="/browse">
                         <img
                             src={netflix_logo}
                             alt="Netflix"

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { GoogleGenerativeAI } from "@google/generative-ai";
-import { API_OPTIONS, BackHome, FindButton, Loader, Netflix_Logo } from '../utils/constant';
+import { AniLoader, API_OPTIONS, BackHome, FindButton, Netflix_Logo } from '../utils/constant';
 import NetflixIntro from './NetflixIntro';
 import cross from "../assets/cross.svg"
 import { useDispatch, useSelector } from 'react-redux';
@@ -209,7 +209,7 @@ const GptSearch = () => {
           </div>
         )}
       </div>
-      {!showError &&  isLoading && <Loader />}
+      {!showError && isLoading && <AniLoader />}
       {store && !isLoading && <GptInfo />}
     </div>
   )

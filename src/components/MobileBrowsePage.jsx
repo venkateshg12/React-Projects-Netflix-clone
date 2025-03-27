@@ -48,7 +48,7 @@ const MobileBrowsePage = ({ nowPlayingMovies }) => {
                     </figure>
                     <PlayInfo className="z-30 relative -mt-[2.5rem]" type="movie" id={id} />
                 </div>
-                <button className="absolute md:hidden top-4 right-2 z-50 p-2 scale-[1.04] mr-2 rounded-md border-2 border-white" onClick={toggleNavigation}>
+                <button className="absolute md:hidden top-4 right-2 z-50 p-2 scale-[1.03] mr-2 rounded-md border-2 border-white" onClick={toggleNavigation}>
                     <MenuSvg openNavigation={openNavigation} />
                 </button>
                 {openNavigation && (
@@ -57,7 +57,7 @@ const MobileBrowsePage = ({ nowPlayingMovies }) => {
                             <div className='flex items-center flex-col gap-7  mt-[10rem]  h-full'>
                                 <a href="/gptSearch" className="link">What to watch</a>
                                 <a href="/findmovie" className="link">Find a movie/series</a>
-                                <a onCanPlay={handleSignOut} className="link">Sign out</a>
+                                <a onClick={handleSignOut} className="link">Sign out</a>
                             </div>
                         </div>
                     </>
